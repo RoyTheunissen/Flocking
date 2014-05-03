@@ -1,0 +1,28 @@
+# csharp project files
+*.sln
+*.suo
+*.userprefs
+*.csproj
+*.pidb
+
+# unity project files
+*.unityproj
+
+# mac OSX files
+.DS_Store
+
+# unity auto generated folders
+obj/
+Temp/
+Library/
+
+# game builds
+/Builds
+/Builds.meta
+/Build
+/Build.meta
+build.log
+
+# Flash stuff
+Flash/SocialClient/obj/SocialClientConfig.old
+Flash/SocialClient/obj/SocialClientConfig.xml
