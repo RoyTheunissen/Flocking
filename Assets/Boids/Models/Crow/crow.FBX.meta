@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: 800131869f1915c46b3237bd0a2b1f1f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Crow.Beak
+    100004: Crow.Neck
+    100006: Crow.Root
+    100008: Crow.Tail.0
+    100010: Crow.Tail.1
+    100012: Crow.Wing.0.L
+    100014: Crow.Wing.0.R
+    100016: Crow.Wing.1.L
+    100018: Crow.Wing.1.R
+    100020: Plane001
+    400000: //RootNode
+    400002: Crow.Beak
+    400004: Crow.Neck
+    400006: Crow.Root
+    400008: Crow.Tail.0
+    400010: Crow.Tail.1
+    400012: Crow.Wing.0.L
+    400014: Crow.Wing.0.R
+    400016: Crow.Wing.1.L
+    400018: Crow.Wing.1.R
+    400020: Plane001
+    4300000: Plane001
+    7400000: Fly
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Plane001
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Fly
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crow.Root
+        weight: 1
+      - path: Crow.Root/Crow.Neck
+        weight: 1
+      - path: Crow.Root/Crow.Neck/Crow.Beak
+        weight: 1
+      - path: Crow.Root/Crow.Tail.0
+        weight: 1
+      - path: Crow.Root/Crow.Tail.0/Crow.Tail.1
+        weight: 1
+      - path: Crow.Root/Crow.Wing.0.L
+        weight: 1
+      - path: Crow.Root/Crow.Wing.0.L/Crow.Wing.1.L
+        weight: 1
+      - path: Crow.Root/Crow.Wing.0.R
+        weight: 1
+      - path: Crow.Root/Crow.Wing.0.R/Crow.Wing.1.R
+        weight: 1
+      - path: Plane001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
